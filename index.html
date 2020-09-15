@@ -2,14 +2,6 @@
 <html>
 <head>
   <link href="/styles.css" rel="stylesheet">
-  <style>
-  body {
-    background: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  </style>
   <title></title>
 </head>
 <body>
@@ -19,6 +11,7 @@
 <p id="high"></p>
 <canvas width="400" height="400" id="game"></canvas>
 <script>
+  <center>
 var canvas = document.getElementById('game');
 var context = canvas.getContext('2d');
 var grid = 16;
@@ -162,6 +155,7 @@ document.addEventListener('keydown', function(e) {
 });
 // start the game
 requestAnimationFrame(loop);
+</center>
 </script>
 </body>
 </html>
