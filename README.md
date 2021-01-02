@@ -1,5 +1,5 @@
 # snake
 
-https://mangoisthebest.herokuapp.com/
+https://lauraisthebest.herokuapp.com/
 
 :)
